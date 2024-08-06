@@ -8,31 +8,25 @@ namespace chatmobile.MiddleWares
 {
 
 
-    public class AuthMiddlewate
+    public class AuthMiddlewate(RequestDelegate next, IConfiguration configuration)
     {
 
-        private readonly RequestDelegate _next;
-        private readonly IConfiguration _configuration;
-
-        public AuthMiddlewate(RequestDelegate next, IConfiguration configuration)
-        {
-            _next = next;
-            _configuration = configuration;
-        }
+        private readonly RequestDelegate _next = next;
+        private readonly IConfiguration _configuration = configuration;
 
         public async Task InvokeAsync(HttpContext context)
         {
 
-            if (context.Request.Path.Value.Equals("/api/v1/login"))
+            if (context.Request.Path.Value!.Equals("/api/v1/login"))
             {
 
                 await _next.Invoke(context);
             }
-            var accessToken = context.Request.Headers["Authorization"];
+            var accessToken = context.Request.Headers.Authorization;
 
-            if (accessToken.Count > 0 && accessToken[0].StartsWith("Bearer "))
+            if (accessToken.Count > 0 && accessToken[0]!.StartsWith("Bearer "))
             {
-                accessToken = accessToken[0].Substring("Bearer ".Length);
+                accessToken = accessToken[0]!.Substring("Bearer ".Length);
 
                 var principal = GetPrincipalFromExpiredToken(accessToken);
                 if (principal == null)

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("chatmobile")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+660ad6dd8b72b8ca96a8b7a78d9dca463ab8d6a9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04253041d4ae33aa606d4879dee94ea3e977e8eb")]
 [assembly: System.Reflection.AssemblyProductAttribute("chatmobile")]
 [assembly: System.Reflection.AssemblyTitleAttribute("chatmobile")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

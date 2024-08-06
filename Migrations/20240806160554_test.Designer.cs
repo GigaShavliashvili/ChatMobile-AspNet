@@ -13,7 +13,7 @@ namespace chatmobile.Migrations
 {
     [DbContext(typeof(AppDbContext))]
     [Migration("20240806160554_test")]
-    partial class test
+    partial class Test
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
