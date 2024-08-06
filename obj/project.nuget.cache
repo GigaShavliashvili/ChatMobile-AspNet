@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uk8qAyUyo+hfRxA1UFkwPmfXyl6hZ8qAMMlQ5ErHs6JA8PUMPtIsjbtnVsa3fIbURQQQ+13btlkzrYfgsqopoQ==",
+  "dgSpecHash": "7hcQqhK/3I9IsHZx05h71ld5eKGFGlEKfwhefgBxqIjLGToSoaiVkGDT7Qtc6UZQKfuC3hwWVUd3yVO+/7QAyQ==",
   "success": true,
-  "projectFilePath": "/Users/gigashavliashvili/Desktop/chatMobile-.net-msSql-reactNtive-/chatmobile-server/mobilechat/chatmobile/chatmobile.csproj",
+  "projectFilePath": "/Users/gigashavliashvili/Desktop/chatMobile-.net-msSql-reactNtive-/chatmobile-server/chatmobile/chatmobile.csproj",
   "expectedPackageFiles": [
     "/Users/gigashavliashvili/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",
     "/Users/gigashavliashvili/.nuget/packages/azure.identity/1.10.3/azure.identity.1.10.3.nupkg.sha512",

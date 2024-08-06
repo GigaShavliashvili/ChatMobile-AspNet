@@ -4565,11 +4565,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/gigashavliashvili/Desktop/chatMobile-.net-msSql-reactNtive-/chatmobile-server/mobilechat/chatmobile/chatmobile.csproj",
+      "projectUniqueName": "/Users/gigashavliashvili/Desktop/chatMobile-.net-msSql-reactNtive-/chatmobile-server/chatmobile/chatmobile.csproj",
       "projectName": "chatmobile",
-      "projectPath": "/Users/gigashavliashvili/Desktop/chatMobile-.net-msSql-reactNtive-/chatmobile-server/mobilechat/chatmobile/chatmobile.csproj",
+      "projectPath": "/Users/gigashavliashvili/Desktop/chatMobile-.net-msSql-reactNtive-/chatmobile-server/chatmobile/chatmobile.csproj",
       "packagesPath": "/Users/gigashavliashvili/.nuget/packages/",
-      "outputPath": "/Users/gigashavliashvili/Desktop/chatMobile-.net-msSql-reactNtive-/chatmobile-server/mobilechat/chatmobile/obj/",
+      "outputPath": "/Users/gigashavliashvili/Desktop/chatMobile-.net-msSql-reactNtive-/chatmobile-server/chatmobile/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/gigashavliashvili/.nuget/NuGet/NuGet.Config"

@@ -6,13 +6,10 @@ namespace chatmobile.controller
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class TestController : Controller
+    public class TestController(IUnitOfWork dbContext) : Controller
     {
-        private readonly IUnitOfWork _dbContext;
-        public TestController(IUnitOfWork dbContext)
-        {
-            _dbContext = dbContext;
-        }
+        private readonly IUnitOfWork _dbContext = dbContext;
+
         [HttpGet("test")]
         public async Task<IActionResult> Test(CancellationToken cancellationToken)
         {
